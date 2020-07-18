@@ -1,0 +1,148 @@
+@media (max-width: 960px){
+    .header__menu-btn{
+        display: block;
+        }
+        .header__menu > ul{
+            display: none;
+            position: absolute;
+            top: 70px;
+            left: 0;
+            right: 0;
+            width: 100%;
+            z-index: 2;
+            background-color: #fff;
+            border-bottom: 1px solid #b9b9b9;
+        }
+        .header__menu li{
+            display: block;
+            text-align: center;
+        }
+        .header__menu li+li{
+            margin-left: 0;
+            padding: 0;
+        }
+        .header__menu a{
+            padding: 12px 0 12px 11px;
+            font-weight: 400;
+            display: block;
+            text-transform: none;
+        }
+        .header__menu li+li a{
+            border-top: 1px solid #e7e7e7;
+        }
+        .header__logo{
+            margin-left: 20px;
+        }
+
+        .slider{
+            margin: 20px;
+        }
+        .thumbs{
+            display: none;
+        }
+        
+        .info__inner{
+            margin-left: 20px;
+        }
+        .line{
+            display: none;
+        }
+        .works__wrapper span{
+            margin-left: 20px;
+        }
+        .works__inner{
+            flex-wrap: wrap;
+            width: 85%;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        .works__gallery{
+            margin-bottom: 20px;
+            margin-right: 20px;
+        }
+}
+
+@media (max-width: 800px){
+    .info__inner{
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+    .info__portfolio{
+        width: 100%;
+        height: 240px;
+    }
+    .info__portfolio-title{
+        margin-right: 15px;
+    }
+    .info__portfolio-text{
+        margin-right: 20px;
+    }
+    .footer__inner{
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    
+    .footer__inner-about{
+        width: 100%;
+        padding-bottom: 20px;
+        padding-right: 10px;
+    }
+    .footer__inner-about-title, 
+    .twitter-title, 
+    .contact-info-title{
+        padding-bottom: 10px;
+    }
+    .footer__inner-twitter{
+        width: 200px;
+        padding-bottom: 30px;
+        margin-left: 0px;
+    }
+    .contact-info-text{
+        width: 100%;
+    }
+    .twitter-title
+    .contact-info-title{
+        padding-bottom: 15px;
+    }
+    .footer__inner-contact {
+        width: 200px;
+        margin-left: 0;
+    }
+    
+    .contact-social{
+        float: right;
+    }
+}
+
+@media (max-width: 590px){
+    .works__gallery{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .works__inner{
+        width: 50%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .slider__item-info{
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 460px){
+    .info__portfolio {
+        height: 300px;
+    }
+    .works__inner{
+        margin-left: 40px;
+    }
+    .footer__inner-about-text{
+        width: 100%;
+    }
+    .works__image{
+        width: 100%;
+    }
+}
+
+

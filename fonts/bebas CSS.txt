@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'BEBAS';
+    src: local('BEBAS Regular'), local('BEBAS-Regular'),
+        url('Bebas-Regular.woff2') format('woff2'),
+        url('Bebas-Regular.woff') format('woff'),
+        url('Bebas-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+Если захочу через ссылку:
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebas" type="text/css"/>
+
+font-family: 'BebasNeueRegular';
+   font-weight: normal;
+   font-style: normal;
